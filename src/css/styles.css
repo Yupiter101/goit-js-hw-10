@@ -17,4 +17,34 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  /* transform: scale(0.98); */
+  /* transition: transform 250ms linear; */
+}
+
+/* #search-box:hover {
+  transform: scale(1);
+} */
+
+ul{
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 0px;
+}
+
+.country-font-size {
+  font-size: 24px;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-info {
+  padding-left: 24px;
+}
+
+p {
+  margin: 5px 0;
 }
